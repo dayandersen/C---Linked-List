@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+struct monkey
+{
+  char currMonkey[25];
+  int rank;
+  //struct monkey *next;
+} s;
+
+int main()
+{
+  printf(" Enter Monkey Name: ");
+  scanf("%s", s.currMonkey);
+  
+  printf(" Enter Monkey Rank: ");
+  scanf("%d", &s.rank);
+  
+  printf("%s",s.currMonkey);
+  printf("%d",s.rank);
+  
+}
